@@ -11,7 +11,8 @@ For details on how to use AirSim and its original API, please visit the [AirSim 
 - Set up the conda environment  
 ```
 conda env create -f environment.yml
-```
+```path
+
 - Activate the environment and install the AirSim client.
 ```
 conda activate chatgpt
@@ -25,7 +26,8 @@ pip install airsim
 - Run the AirSim simulation as `.\run.bat` from the sim folder.
 - Once simulation is up and running, run `python chatgpt_airsim.py` from this repo.
 
-The interface shows an `AirSim>` prompt when it is ready to take user questions/commands. The commands are passed to ChatGPT and once the response is received (please note that the response could take some time to show up depending on ChatGPT response time), the code blocks within the response are automatically extracted and run in AirSim. 
+The interface shows 
+esponse is received (please note that the response could take some time to show up depending on ChatGPT response time), the code blocks within the response are automatically extracted and run in AirSim. 
 
 We emphasize that this is meant to be a sample environment and interface aimed at getting started with ChatGPT and robotics applications inside a simulation sandbox. ChatGPT generated code could result in unexpected behavior or crashes, especially as the interface is written in a way that it executes the commands directly. That said, we do encourage users to test out the capabilities of the model, and to contribute new prompting techniques, additional wrapper functions, or any other enhancements to this interface.
 
